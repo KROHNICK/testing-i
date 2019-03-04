@@ -13,7 +13,7 @@ function success(item) {
   newItem.durability = item.durability;
   newItem.enhancement = item.enhancement;
 
-  if (item.durability < 15) {
+  if (item.enhancement < 15) {
     const score = Number(item.enhancement.slice(1));
     newItem.enhancement = "+" + (score + 1);
     newItem.name = displayName(newItem);

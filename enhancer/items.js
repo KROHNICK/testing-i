@@ -1,10 +1,11 @@
+//success
 const battleaxe = {
   name: "Battleaxe",
   type: "weapon",
   durability: 100,
-  enhancement: "PEN"
+  enhancement: "PRI"
 };
-
+//success
 const sword = {
   name: "Sword",
   type: "weapon",
@@ -12,13 +13,15 @@ const sword = {
   enhancement: "+10"
 };
 
+//fail
 const dagger = {
   name: "Dagger",
   type: "weapon",
-  durability: 50,
+  durability: 25,
   enhancement: "+3"
 };
 
+//success
 const chestplate = {
   name: "Chestplate",
   type: "armor",
@@ -26,6 +29,7 @@ const chestplate = {
   enhancement: "TRI"
 };
 
+//success
 const helmet = {
   name: "Helmet",
   type: "armor",
@@ -33,17 +37,19 @@ const helmet = {
   enhancement: "+8"
 };
 
+//repair
 const leggings = {
   name: "Leggings",
   type: "armor",
-  durability: 50,
+  durability: 0,
   enhancement: "+2"
 };
 
+//fail
 const gloves = {
   name: "Gloves",
   type: "armor",
-  durability: 25,
+  durability: 5,
   enhancement: "0"
 };
 
